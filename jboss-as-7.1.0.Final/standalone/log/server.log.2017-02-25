@@ -1,0 +1,137 @@
+01:49:01,504 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:05,650 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 78bbb112-fa9b-11e6-bd85-142820524153
+01:49:05,666 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 78bbb112-fa9b-11e6-bd85-142820524153
+01:49:05,675 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:05,690 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session d6d8b24a-fa97-11e6-bd85-142820524153
+01:49:05,696 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session d6d8b24a-fa97-11e6-bd85-142820524153
+01:49:05,703 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:05,720 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session a7ca4536-fa99-11e6-bd85-142820524153
+01:49:05,744 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session a7ca4536-fa99-11e6-bd85-142820524153
+01:49:05,751 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:05,757 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-26 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:05,748 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-28 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:05,747 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-27 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:05,783 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 89582698-fa97-11e6-bd85-142820524153
+01:49:06,004 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 89582698-fa97-11e6-bd85-142820524153
+01:49:06,012 INFO  [org.hornetq.core.remoting.server.impl.RemotingServiceImpl] (hornetq-failure-check-thread) failed to remove connection
+01:49:06,019 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,046 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session ddc08d1e-fa9a-11e6-bd85-142820524153
+01:49:06,056 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session ddc08d1e-fa9a-11e6-bd85-142820524153
+01:49:06,064 INFO  [org.hornetq.core.remoting.server.impl.RemotingServiceImpl] (hornetq-failure-check-thread) failed to remove connection
+01:49:06,023 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-25 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,072 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,066 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-28 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,210 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 2b3e32a0-fa9b-11e6-bd85-142820524153
+01:49:06,270 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 2b3e32a0-fa9b-11e6-bd85-142820524153
+01:49:06,276 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,292 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-27 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,305 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 6ada964a-fa95-11e6-bd85-142820524153
+01:49:06,353 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 6ada964a-fa95-11e6-bd85-142820524153
+01:49:06,359 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,360 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-28 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,376 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 0ccf2142-fa99-11e6-bd85-142820524153
+01:49:06,427 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 0ccf2142-fa99-11e6-bd85-142820524153
+01:49:06,433 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,452 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 5a4c9fb4-fa99-11e6-bd85-142820524153
+01:49:06,460 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-27 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,493 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 5a4c9fb4-fa99-11e6-bd85-142820524153
+01:49:06,517 WARN  [org.hornetq.core.protocol.core.impl.RemotingConnectionImpl] (hornetq-failure-check-thread) Connection failure has been detected: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=3]
+01:49:06,536 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Client connection failed, clearing up resources for session 3bda5a06-fa97-11e6-bd85-142820524153
+01:49:06,542 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-24 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:06,575 WARN  [org.hornetq.core.server.impl.ServerSessionImpl] (hornetq-failure-check-thread) Cleared up resources for session 3bda5a06-fa97-11e6-bd85-142820524153
+01:49:06,662 WARN  [org.hornetq.jms.server.recovery.HornetQXAResourceWrapper] (Thread-27 (HornetQ-client-global-threads-17752222)) Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0], discoveryGroupConfiguration=null], connectorConfig=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorCode=2 message=Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:380) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:203) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:100) [hornetq-core-2.2.11.Final.jar:]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+
+01:49:10,407 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) product Size : 3
+01:49:10,409 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:10,420 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:10,431 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:11,700 WARN  [com.arjuna.ats.jta] (Periodic Recovery) ARJUNA016027: Local XARecoveryModule.xaRecovery got XA exception XAException.XAER_RMERR: javax.transaction.xa.XAException: Error trying to connect to any providers for xa recovery
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.getDelegate(HornetQXAResourceWrapper.java:275) [hornetq-jms-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.recover(HornetQXAResourceWrapper.java:77) [hornetq-jms-2.2.11.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.xaRecovery(XARecoveryModule.java:503) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.resourceInitiatedRecoveryForRecoveryHelpers(XARecoveryModule.java:471) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.bottomUpRecovery(XARecoveryModule.java:385) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.periodicWorkSecondPass(XARecoveryModule.java:166) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.arjuna.recovery.PeriodicRecovery.doWorkInternal(PeriodicRecovery.java:789) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.arjuna.recovery.PeriodicRecovery.run(PeriodicRecovery.java:371) [jbossjts-4.16.2.Final.jar:]
+Caused by: java.lang.IllegalStateException: Cannot create session factory, server locator is closed (maybe it has been garbage collected)
+	at org.hornetq.core.client.impl.ServerLocatorImpl.assertOpen(ServerLocatorImpl.java:1823) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:699) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.connect(HornetQXAResourceWrapper.java:321) [hornetq-jms-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.getDelegate(HornetQXAResourceWrapper.java:251) [hornetq-jms-2.2.11.Final.jar:]
+	... 7 more
+
+01:49:20,202 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) product Size : 3
+01:49:20,203 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:20,211 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:20,216 INFO  [stdout] (http-localhost-127.0.0.1-8080-5) DataList id product : 1406
+01:49:20,256 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (http-localhost-127.0.0.1-8080-5) JSF1063: WARNING! Setting non-serializable attribute value into HttpSession (key: getTimeZoneController, value class: com.discusit.ameriscraps.controller.GetTimeZoneController).

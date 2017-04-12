@@ -1,0 +1,20 @@
+01:42:48,089 INFO  [stdout] (http-localhost-127.0.0.1-8080-12) product Size : 3
+01:42:48,139 INFO  [stdout] (http-localhost-127.0.0.1-8080-12) DataList id product : 1414
+01:42:48,155 INFO  [stdout] (http-localhost-127.0.0.1-8080-12) DataList id product : 1414
+01:42:48,170 INFO  [stdout] (http-localhost-127.0.0.1-8080-12) DataList id product : 1414
+01:42:55,569 WARN  [com.arjuna.ats.jta] (Periodic Recovery) ARJUNA016027: Local XARecoveryModule.xaRecovery got XA exception XAException.XAER_RMERR: javax.transaction.xa.XAException: Error trying to connect to any providers for xa recovery
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.getDelegate(HornetQXAResourceWrapper.java:275) [hornetq-jms-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.recover(HornetQXAResourceWrapper.java:77) [hornetq-jms-2.2.11.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.xaRecovery(XARecoveryModule.java:503) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.resourceInitiatedRecoveryForRecoveryHelpers(XARecoveryModule.java:471) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.bottomUpRecovery(XARecoveryModule.java:385) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule.periodicWorkSecondPass(XARecoveryModule.java:166) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.arjuna.recovery.PeriodicRecovery.doWorkInternal(PeriodicRecovery.java:789) [jbossjts-4.16.2.Final.jar:]
+	at com.arjuna.ats.internal.arjuna.recovery.PeriodicRecovery.run(PeriodicRecovery.java:371) [jbossjts-4.16.2.Final.jar:]
+Caused by: java.lang.IllegalStateException: Cannot create session factory, server locator is closed (maybe it has been garbage collected)
+	at org.hornetq.core.client.impl.ServerLocatorImpl.assertOpen(ServerLocatorImpl.java:1823) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:699) [hornetq-core-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.connect(HornetQXAResourceWrapper.java:321) [hornetq-jms-2.2.11.Final.jar:]
+	at org.hornetq.jms.server.recovery.HornetQXAResourceWrapper.getDelegate(HornetQXAResourceWrapper.java:251) [hornetq-jms-2.2.11.Final.jar:]
+	... 7 more
+
