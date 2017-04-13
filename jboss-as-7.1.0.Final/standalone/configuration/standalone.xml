@@ -108,7 +108,7 @@
                     </security>
                 </datasource>
                 <datasource jta="true" jndi-name="java:/jdbc/ameriscraps" pool-name="ameriscraps_pool" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:postgresql://localhost:5432/ameriscraps_dev</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/ameriscraps</connection-url>
                     <driver>postgresql</driver>
                     <pool>
                         <min-pool-size>1</min-pool-size>
